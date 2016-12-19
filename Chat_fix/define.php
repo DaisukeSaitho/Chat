@@ -14,6 +14,13 @@ const ERROR_MESSAGE_NO_FILE = 'ファイルがない --- 解決策：chatlog.txt
 const ERROR_MESSAGE_NO_READABLE = 'ファイルが正常に読み込めない --- 解決策：プロパティのアクセス権を確認';
 //ファイルに正常に書き込めないときに表示するコメント
 const ERROR_MESSAGE_NO_WRITEABLE = 'ファイルに正常に書き込めない --- 解決策：プロパティのアクセス権を確認';
+//IDまたはパスワードのいずれかが未入力
+const ERROR_MESSAGE_NULL_ID_OR_PASS = 'Plese input your id and password.';
+//IDは入力されているが存在しない
+const ERROR_MESSAGE_NOT_FOUND_ID = 'Not fount id.'
+//ID,PWは入力されているが一致しない
+const ERROR_MESSAGE_ID_OR_PASS_INCORRECT = 'ID or Password is incorrect.'
+
 
 //ファイル操作中にエラーが起きた時のコメント
 const ERROR_MESSAGE_FAILURE_READ_WRITE = 'ファイル操作中にエラーが起きた';
